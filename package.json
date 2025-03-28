@@ -1,0 +1,19 @@
+{
+  "name": "cloud-function-agri",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "gcp-build": "npm run build"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.0.0",
+    "@turf/boolean-point-in-polygon": "^6.5.0"
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}
